@@ -71,14 +71,13 @@ diffindX2=abs(indmax2-X(E))
 %         end
 %     end
 % end
-    
-    
+
+
     %maxtopo(i)=profiles(i,M)
-    
+
     figure(999)
     pcolor(profiles);shading interp; colormap(jet);hold on
     plot(indmax2,1:numel(latprof),'bo')
-    
+
     %figure(2)
     % hist(maxtopo)
-    
