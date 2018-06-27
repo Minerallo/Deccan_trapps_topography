@@ -42,7 +42,7 @@ for i=1:numel(latprof)
 end
 [N,X]=hist(indmax);
 [E]=find(N==max(N));
-diffindX=abs(indmax-X(E)); %definir une tolerance diff<10
+diffindX=abs(indmax-X(E)); %definir une tolerance : diff<tolerance
 
 tolerance=35
 mintol=round(X(E)-tolerance)
